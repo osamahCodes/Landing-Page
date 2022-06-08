@@ -138,3 +138,36 @@ button{
 .author{
     align-self: flex-end;
 }
+/* *********************************************************** */
+/* *********************************************************** */
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+    background-color: #3882f6;
+    border-radius: 6px;
+    border-color: #3882f6;
+    border-style: solid;
+    width: 800px;
+}
+.container-sign{
+    border-color: #f9faf8;
+    align-self: center;
+}
+.box-title{
+    font-size: 18px;
+    font-weight: 600;
+    color: #f9faf8;
+
+}
+
+.box-describe{
+    color: #f9faf8;
+}
