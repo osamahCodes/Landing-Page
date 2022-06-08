@@ -19,10 +19,7 @@ ul {
     padding: 0%;
     gap: 8px;
 }
-img{
-    height: 300px;
-    align-self: flex-end;
-}
+
 
 button{
     background-color: #3882f6;
@@ -83,3 +80,41 @@ button{
     width: 400px;
     flex-wrap: wrap;
 }
+.header-img{
+    height: 300px;
+    align-self: flex-end;
+}
+/* *********************************************************** */
+/* *********************************************************** */
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+    margin-bottom: 70px;
+}
+
+.body-title{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.body-info{
+    display: flex;
+    gap: 35px;
+}
+
+.body-img{
+    width: 300px;
+    aspect-ratio: 1;
+}
+
+.body-describe{
+    width: 300px;
+    flex-wrap: wrap;
+}
+/* *********************************************************** */
+/* *********************************************************** */
